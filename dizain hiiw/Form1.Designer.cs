@@ -161,7 +161,6 @@
             label6.Size = new Size(71, 32);
             label6.TabIndex = 12;
             label6.Text = "Орос";
-            label6.Click += label6_Click;
             // 
             // btnAdd
             // 
@@ -198,7 +197,6 @@
             btnClear.TabIndex = 16;
             btnClear.Text = " Цэвэрлэх";
             btnClear.UseVisualStyleBackColor = true;
-            btnClear.Click += btnClear_Click;
             // 
             // btnSaveWord
             // 
@@ -244,7 +242,6 @@
             Controls.Add(textBox1);
             Name = "Form1";
             Text = "Гурван хэлний толь бичиг";
-            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dgvDictionary).EndInit();
             ((System.ComponentModel.ISupportInitialize)dgvSaved).EndInit();
             ResumeLayout(false);
